@@ -19,7 +19,7 @@ mrcfile 1.3.0 <br>
 torchvision >= 0.8.2 <br>
 ## 4 Test Data
 Example real dataset can be found at: <br>
-https://drive.google.com
+Uploading now, coming soon.
 ## 5 Usage
 #### Data directory is advised to build as follow
 ```
