@@ -5,15 +5,21 @@ Official implementations and figures of paper "Self-Supervised Noise Modeling an
 ![Overall architecture](./Figure1.png)
 <br>
 Figure 1. Overall architecture of NMSG framework. The workflow started with noisy projections which are firstly reconstructed as raw noisy image. Then, noisy projections are filtered and reconstructed as over-smoothed image which is fed into the sparsity extractor to capture the sparsity information. The raw noisy image is filtered with 3D Gaussian filter to generate filtered image as guidance. The synthetic noise volumes are generated from noisy image using noise synthesizer. The synthetic noise volumes are added to raw noisy image to generate synthetic noisy input for the training.
-<br>
-![simulated data result](./Figure5_1.png)
-<br>
-Figure 5. Visualized results of the simluated dataset with noise intensity of sigma=20. All images are selected from the center slices on x-, y- and z- axis.
-<br>
-![real data result](./Figure7.png)
-<br>
-Figure 7. Visualized results of the three real-world cryo-ET datasets. All of the images are selected from the center slices on x-, y- and z- axis, respectively.
-<br>
-![FSCe/o curve](./Figure8.png)
-<br>
-Figure 8. The FSC_e/o curves for the three real-world cryo-ET datasets. In each figure, the blue line points out the resolution of each method when r=0.5.
+## 2 Operating System
+Ubuntu 18.04 or Centos 7 is preferred.
+## 3 Requirements
+Python >= 3.6.13
+Pytorch >= 1.7.1
+opencv-python 4.5.1
+numpy 1.19.2
+scikit-image 0.17.1
+scikit-learn 0.24.2
+mrcfile 1.3.0
+torchvision >= 0.8.2
+## 4 Test Data
+Example real dataset can be found at:
+https://drive.google.com
+## 5 Usage
+## Acknowledgement
+We sinceresly thank following work with their open-sourced code.
+Bepler, T., Kelley, K., Noble, A.J., Berger, B. Topaz-Denoise: general deep denoising models for cryoEM and cryoET. Nat Commun 11, 5208 (2020).
