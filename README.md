@@ -34,5 +34,5 @@ https://drive.google.com
 #### For detailed parameter settings, please run
     python denoiser.py -h
 ## Acknowledgement
-We sinceresly thank following work with their open-sourced code. Code is modified from following work <br>
+We sinceresly thank following work with their open-sourced code. Code is modified from following work: <br>
 Bepler, T., Kelley, K., Noble, A.J., Berger, B. Topaz-Denoise: general deep denoising models for cryoEM and cryoET. Nat Commun 11, 5208 (2020).
