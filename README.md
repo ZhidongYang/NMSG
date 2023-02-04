@@ -8,18 +8,18 @@ Figure 1. Overall architecture of NMSG framework. The workflow started with nois
 ## 2 Operating System
 Ubuntu 18.04 or Centos 7 is preferred.
 ## 3 Requirements
-Python >= 3.6.13
-Pytorch >= 1.7.1
-opencv-python 4.5.1
-numpy 1.19.2
-scikit-image 0.17.1
-scikit-learn 0.24.2
-mrcfile 1.3.0
-torchvision >= 0.8.2
+Python >= 3.6.13 <br>
+Pytorch >= 1.7.1 <br>
+opencv-python 4.5.1 <br>
+numpy 1.19.2 <br>
+scikit-image 0.17.1 <br>
+scikit-learn 0.24.2 <br>
+mrcfile 1.3.0 <br>
+torchvision >= 0.8.2 <br>
 ## 4 Test Data
-Example real dataset can be found at:
+Example real dataset can be found at: <br>
 https://drive.google.com
 ## 5 Usage
 ## Acknowledgement
-We sinceresly thank following work with their open-sourced code.
+We sinceresly thank following work with their open-sourced code. <br>
 Bepler, T., Kelley, K., Noble, A.J., Berger, B. Topaz-Denoise: general deep denoising models for cryoEM and cryoET. Nat Commun 11, 5208 (2020).
