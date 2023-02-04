@@ -2,9 +2,7 @@
 Official implementations and figures of paper "Self-Supervised Noise Modeling and Sparsity Guided Cryo-ET Image Denoising".
 <br>
 ## 1 Introduction
-![Overall architecture](./Figure1.png)
-<br>
-Figure 1. Overall architecture of NMSG framework. The workflow started with noisy projections which are firstly reconstructed as raw noisy image. Then, noisy projections are filtered and reconstructed as over-smoothed image which is fed into the sparsity extractor to capture the sparsity information. The raw noisy image is filtered with 3D Gaussian filter to generate filtered image as guidance. The synthetic noise volumes are generated from noisy image using noise synthesizer. The synthetic noise volumes are added to raw noisy image to generate synthetic noisy input for the training.
+The workflow of NMSG started with noisy projections which are firstly reconstructed as raw noisy image. Then, noisy projections are filtered and reconstructed as over-smoothed image which is fed into the sparsity extractor to capture the sparsity information. The raw noisy image is filtered with 3D Gaussian filter to generate filtered image as guidance. The synthetic noise volumes are generated from noisy image using noise synthesizer. The synthetic noise volumes are added to raw noisy image to generate synthetic noisy input for the training.
 ## 2 Operating System
 Ubuntu 18.04 or Centos 7 is preferred.
 ## 3 Requirements
