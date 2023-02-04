@@ -20,7 +20,7 @@ torchvision >= 0.8.2 <br>
 Example real dataset can be found at: <br>
 https://drive.google.com
 ## 5 Usage
-#### Training data directory is advised to build as follow
+#### Data directory is advised to build as follow
 ```
 ./dataset
    --DATASET_NAME
