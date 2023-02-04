@@ -22,7 +22,7 @@ https://drive.google.com
 ## 5 Usage
 #### Training data directory is advised to build as follow
 ```
-dataset
+./dataset
    --DATASET_NAME
       -- noisy
       -- synthetic_noisy
