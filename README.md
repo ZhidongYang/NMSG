@@ -20,6 +20,14 @@ torchvision >= 0.8.2 <br>
 Example real dataset can be found at: <br>
 https://drive.google.com
 ## 5 Usage
+#### Training data directory is advised to build as follow
+```
+DATASET_NAME
+-- noisy
+-- synthetic_noisy
+-- filtered_guidance
+-- gradient_guidance
+```
 ## Acknowledgement
 We sinceresly thank following work with their open-sourced code. <br>
 Bepler, T., Kelley, K., Noble, A.J., Berger, B. Topaz-Denoise: general deep denoising models for cryoEM and cryoET. Nat Commun 11, 5208 (2020).
