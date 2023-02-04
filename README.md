@@ -22,11 +22,12 @@ https://drive.google.com
 ## 5 Usage
 #### Training data directory is advised to build as follow
 ```
-DATASET_NAME
--- noisy
--- synthetic_noisy
--- filtered_guidance
--- gradient_guidance
+dataset
+   --DATASET_NAME
+      -- noisy
+      -- synthetic_noisy
+      -- filtered_guidance
+      -- gradient_guidance
 ```
 ## Acknowledgement
 We sinceresly thank following work with their open-sourced code. <br>
