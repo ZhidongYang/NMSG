@@ -1,4 +1,4 @@
-# NMSG
+# Noise Modeling and Sparsity Guided (NMSG) Cryo-ET Image Denoising
 Official implementations and figures of paper "Self-Supervised Noise Modeling and Sparsity Guided Cryo-ET Image Denoising".
 <br>
 ## v0.1.2
