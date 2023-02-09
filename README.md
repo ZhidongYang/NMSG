@@ -19,7 +19,8 @@ mrcfile 1.3.0 <br>
 torchvision >= 0.8.2 <br>
 ## 4 Test Data
 Example real dataset can be found at: <br>
-https://pan.baidu.com/s/1DlXgCM_jgCKff6-l_YXczA  <br>
+Google Drive: Coming soon...
+Baidu netdisk:   https://pan.baidu.com/s/1DlXgCM_jgCKff6-l_YXczA  <br>
 verification code：ezal <br>
 NOTE: This is a temporary link to the dataset. We will provide a stable link as soon as possible. 
 ## 5 Usage
