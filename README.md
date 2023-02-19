@@ -1,6 +1,8 @@
 # Noise Modeling and Sparsity Guided (NMSG) Cryo-ET Image Denoising
 Official implementations and figures of paper "Self-Supervised Noise Modeling and Sparsity Guided Cryo-ET Image Denoising".
 <br>
+## v0.1.3
+Code for noise synthesizer is available now.
 ## v0.1.2
 Complete training and testing of NMSG denoiser is available now. <br>
 Example dataset can be found in the Section 4. 
