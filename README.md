@@ -32,6 +32,8 @@ Google Drive: https://drive.google.com/file/d/1ECWjwu7GO55oAQRxKSvF-sP8JMoh8nWr/
       -- filtered_guidance
       -- gradient_guidance
 ```
+#### Test with trained model
+    sh run_test.sh
 #### Run training/testing script
     sh run.sh
 #### For detailed parameter settings, please run
