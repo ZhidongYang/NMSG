@@ -41,3 +41,16 @@ Google Drive: https://drive.google.com/file/d/1ECWjwu7GO55oAQRxKSvF-sP8JMoh8nWr/
 ## Acknowledgement
 We sinceresly thank following work with their open-sourced code. Code is modified from following work: <br>
 Bepler, T., Kelley, K., Noble, A.J., Berger, B. Topaz-Denoise: general deep denoising models for cryoEM and cryoET. Nat Commun 11, 5208 (2020).
+
+## Citation
+```
+@article{nmsg,
+   title = {Self-supervised noise modeling and sparsity guided electron tomography volumetric image denoising},
+   journal = {Ultramicroscopy},
+   volume = {255},
+   pages = {113860},
+   year = {2024},
+   doi = {https://doi.org/10.1016/j.ultramic.2023.113860},
+   author = {Zhidong Yang and Dawei Zang and Hongjia Li and Zhao Zhang and Fa Zhang and Renmin Han}
+}
+```
